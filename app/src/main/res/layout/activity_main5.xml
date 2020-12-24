@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/qq"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="424dp"
+        android:layout_height="142dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-13dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="581dp"
+        app:srcCompat="@drawable/qwe"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="36dp"
+        android:layout_height="26dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="361dp"
+        android:layout_marginBottom="475dp"
+        app:srcCompat="@drawable/dsdsa" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="414dp"
+        android:layout_height="27dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/sysbar"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="169dp"
+        android:layout_marginEnd="365dp"
+        android:layout_marginBottom="535dp"
+        app:srcCompat="@drawable/dsfsdfsdfsdf" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="301dp"
+        android:layout_marginBottom="538dp"
+        android:fontFamily="@font/ubuntu"
+        android:text="@string/textview"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="293dp"
+        android:layout_marginBottom="480dp"
+        android:fontFamily="@font/ubuntu"
+        android:text="@string/textview2"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="137dp"
+        android:layout_marginEnd="-100dp"
+        app:srcCompat="@drawable/content" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="56dp"
+        android:layout_height="51dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="326dp"
+        app:srcCompat="@drawable/avatar" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="219dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:text="@string/name"
+        android:textColor="#F8F3F3"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="89dp"
+        android:layout_marginEnd="270dp"
+        android:text="@string/city"
+        android:textColor="#FAF5F5" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="47dp"
+        android:layout_height="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="24dp"
+        app:srcCompat="@drawable/icons" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="37dp"
+        android:layout_height="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="50dp"
+        android:text="Button"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="37dp"
+        android:layout_height="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="165dp"
+        android:layout_marginEnd="358dp"
+        android:text="Button"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="37dp"
+        android:layout_height="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="224dp"
+        android:layout_marginEnd="361dp"
+        android:text="Button"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="707dp"
+        android:layout_marginEnd="279dp"
+        android:fontFamily="@font/ubuntu"
+        android:text="@string/postavpiat"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
